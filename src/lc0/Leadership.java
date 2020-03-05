@@ -1,8 +1,7 @@
+package lc0;
+
 import visidia.simulation.SimulationConstants;
 import visidia.simulation.process.algorithm.LC0_Algorithm;
-import visidia.simulation.process.edgestate.MarkedState;
-
-import java.util.Arrays;
 
 public class Leadership extends LC0_Algorithm {
 
@@ -15,7 +14,7 @@ public class Leadership extends LC0_Algorithm {
 
     @Override
     public String getDescription() {
-        return "Leadership";
+        return "lc0.Leadership";
     }
 
     @Override
